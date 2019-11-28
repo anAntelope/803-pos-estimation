@@ -46,9 +46,10 @@ use `python` or `pip` instead of `python3`/`python3.6`/`pip3` etc.
 
 `tensorflow-gpu`  in our requirement needs
 - 64 bit python installation
-- Cuda And cudnn. Version depending on the tensorflow version we use
+- Cuda And cudnn. Version depending on the tensorflow version we use.
+On python 3.7 tensorflow 2 should require cuda 10.0 an the according cudnn.
 
 OR some docker container with everything configured.
 
 Either configuring manually or using docker may be not easy to the un-experienced.
- I suggest people help each other.
+ I suggest people help each other when in doubt.
